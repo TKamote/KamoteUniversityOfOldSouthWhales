@@ -145,7 +145,8 @@ body {
         
 @media (max-width: 414px) {
   body .container .main-landingPage {
-    background-image: url(images/mobile.jpg);}
+    background-image: url(images/mobile.jpg);
+    padding: 20px;}
   body .container .main-landingPage .heading {
     padding: 20px 10px 20px 10px; }
     body .container .main-landingPage .heading div i {
@@ -157,18 +158,18 @@ body {
         letter-spacing: .7px;
         font-weight: 300;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
       body .landingPage-intro h1 span {
         text-decoration: underline;
         font-weight: 400;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
       body .landingPage-intro h1.kamote {
         font-weight: 400;
         line-height: 1.5rem;
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
       }
       body .landingPage-intro h3 {
