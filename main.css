@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #f3f4f6; }
+  body .landingPage-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #3075FF;
+    animation: animate-logo;
+    animation-duration: 2s;
+    animation-fill-mode: none; }
+    body .landingPage-intro button {
+      margin-top: 12px;
+      font-size: .4rem;
+      padding: 2px 5px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      background-color: #083DA8;
+      outline: none;
+      border: none;
+      color: #f3f4f6;
+      box-shadow: 3px 3px 5px #aef89f, -3px -3px 5px #aef89f;
+      animation: animate0;
+      animation-duration: 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+      animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+      body .landingPage-intro h1.kamote {
+        font-weight: 400;
+        line-height: 3.5rem;
+        font-size: 3rem;
+      }
+    body .landingPage-intro img {
+      border-radius: 0;
+      cursor: pointer;
+      outline: none;
+      transform: translateY(-1000px);
+      width: 0px;
+      opacity: 100%;
+      animation: animate1;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards; }
+    body .landingPage-intro img:hover {
+      box-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff; }
+    body .landingPage-intro h1 {
+      color: white;
+      line-height: 3rem;
+      letter-spacing: 1.2px;
+      font-weight: 300;
+    }
+    body .landingPage-intro h1 span {
+      text-decoration: underline;
+      font-weight: 400;
+    }
+    body .landingPage-intro h3 {
+      color: #F5B016;
+      letter-spacing: .1rem;
+      padding-top: 10px;
+      transform: translateY(1000px);
+      font-size: .1rem;
+      opacity: .01;
+      animation: animate2;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards; }
+    body .landingPage-intro h3:hover {
+      color: #cfa07d;
+      cursor: pointer; }
+
+@keyframes animate0 {
+  to {
+    background-color: #7c6fac;
+    outline: none;
+    border: none;
+    box-shadow: 0.3px 0.3px 1.5px #afb4ee, -0.3px -0.3px 1.5px #afb4ee;
+    color: #F5B016; } }
+
+@keyframes animate1 {
+  to {
+    transform: translateY(0px);
+    width: 130px;
+    border-radius: 50%; } }
+
+@keyframes animate2 {
+  to {
+    transform: translateY(0px);
+    font-size: 1.7rem;
+    opacity: 1; } }
+  body .container {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    position: relative; }
+    body .container .main-landingPage {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url(images/Marina.jpg);
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      body .container .main-landingPage .heading {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        width: 100%;
+        height: 75px;
+        margin: 0 auto;
+        padding: 20px 20px 20px 10px;
+        color: #f3f4f6;
+        opacity: .75;
+        position: fixed;
+        top: 0; }
+        body .container .main-landingPage .heading div i {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        body .container .main-landingPage .heading div i img {
+          width: 40%;
+          border-radius: 50%;
+          cursor: pointer; }
+        
+@media (max-width: 414px) {
+  body .container .main-landingPage {
+    background-image: url(images/mobile.jpg);}
+  body .container .main-landingPage .heading {
+    padding: 20px 10px 20px 10px; }
+    body .container .main-landingPage .heading div i {
+      display: flex;
+      justify-content: flex-start; }}
