@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -50px;
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f3f4f6; }
@@ -44,6 +46,10 @@ body {
         line-height: 3.5rem;
         font-size: 3rem;
       }
+    body .landingPage-intro img.pro-logo {
+      margin-top: 25px; 
+      margin-bottom: 10px;
+    }
     body .landingPage-intro img {
       border-radius: 0;
       cursor: pointer;
@@ -60,12 +66,14 @@ body {
     body .landingPage-intro h1 {
       color: white;
       line-height: 3rem;
-      letter-spacing: 1.2px;
+      letter-spacing: .6px;
       font-weight: 300;
     }
     body .landingPage-intro h1 span {
       text-decoration: underline;
-      font-weight: 400;
+      font-weight: 300;
+      font-size: 2.3rem;
+      font-family: 'Diplomata', cursive;
     }
     body .landingPage-intro h3 {
       color: #F5B016;
@@ -143,7 +151,7 @@ body {
           border-radius: 50%;
           cursor: pointer; }
         
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   body .container .main-landingPage {
     background-image: url(images/mobile.jpg);
     padding: 20px;}
