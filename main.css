@@ -7,7 +7,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin-top: -50px;
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f3f4f6; }
@@ -43,7 +42,7 @@ body {
       animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
       body .landingPage-intro h1.kamote {
         font-weight: 400;
-        line-height: 3.5rem;
+        line-height: 3.8rem;
         font-size: 3rem;
       }
     body .landingPage-intro img.pro-logo {
@@ -166,19 +165,22 @@ body {
         letter-spacing: .7px;
         font-weight: 300;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
       body .landingPage-intro h1 span {
         text-decoration: underline;
         font-weight: 400;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
       body .landingPage-intro h1.kamote {
         font-weight: 400;
         line-height: 1.5rem;
         font-size: 1.4rem;
         text-align: center;
+      }
+      body .landingPage-intro h3.from {
+        padding: 10px 0 10px 0;
       }
       body .landingPage-intro h3 {
         font-size: 1rem;
