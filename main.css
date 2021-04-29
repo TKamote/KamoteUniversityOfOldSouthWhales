@@ -143,6 +143,7 @@ body {
         body .container .main-landingPage .heading div i {
           width: 100%;
           display: flex;
+          overflow: hidden;
           justify-content: center;
           align-items: center; }
         body .container .main-landingPage .heading div i img {
@@ -150,7 +151,7 @@ body {
           border-radius: 50%;
           cursor: pointer; }
         
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   body .container .main-landingPage {
     background-image: url(images/mobile.jpg);
     padding: 20px;}
